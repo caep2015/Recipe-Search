@@ -1,0 +1,78 @@
+/* search bar */
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.searchBox {
+  width: 100%;
+  position: relative;
+}
+
+#searchRecipe {
+  margin-top: 20px;
+  margin-left: 60px;
+  float: left;
+  width: 100%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 46px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+  font-size: 20px;
+}
+
+#searchRecipe:focus{
+  color: Orange;
+}
+
+button {
+  position: absolute;
+  margin-top: 20px;
+  right: -57px;
+  width: 40px;
+  height: 46px;
+  margin-left: -5px;
+  border: 2px solid #00B4CC;
+  background: #00B4CC;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-wrap{
+  display: flex;
+  width: 30%;
+  margin-left: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 30px;
+}
+/* end search bar */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-right: 75px;
+  margin-left: 75px;
+  padding-top: 50px;
+  border-top: 2px solid #00B4CC;
+}
+
+.returnedFoods {
+  width:20%;
+}
+
+img {
+  z-index: 100;
+  width: 200px;
+  height: 200px;
+}
+
+h3 {
+  z-index: 200;
+  width:200px;
+}
